@@ -6,7 +6,10 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"C:/Users/gerco/OneDrive/Documenten/Github/InternshipApplication/InternshipGame/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
-				"C:/Users/gerco/OneDrive/Documenten/Github/InternshipApplication/InternshipGame/Content/StarterContent/Shapes/Shape_Cube.uasset"
+				"C:/Users/gerco/OneDrive/Documenten/Github/InternshipApplication/InternshipGame/Content/StarterContent/Shapes/Shape_Cube.uasset",
+				"C:/Users/gerco/OneDrive/Documenten/Github/InternshipApplication/InternshipGame/Content/Blueprints/Pickup.uasset",
+				"C:/Users/gerco/OneDrive/Documenten/Github/InternshipApplication/InternshipGame/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/7E/FFDM3SR7GTOYB3GM7S36KG.uasset",
+				"C:/Users/gerco/OneDrive/Documenten/Github/InternshipApplication/InternshipGame/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/G8/TGKKB335GHKXHQ1Z7T5JHT.uasset"
 			]
 		}
 	]
