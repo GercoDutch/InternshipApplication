@@ -1415,3 +1415,146 @@ LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
 [2023.02.03-09.05.40:151][ 74]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
 [2023.02.03-09.05.48:608][ 88]LogContentBrowser: Attempting asset rename: NewBlueprint -> Pickup
 [2023.02.03-09.05.48:618][ 88]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.02.03-09.19.13:175][105]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Pickup.Pickup
+[2023.02.03-09.19.13:177][105]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.03-09.19.14:412][105]LogViewport: Scene viewport resized to 1086x693, mode Windowed.
+[2023.02.03-09.19.16:478][258]LogViewport: Scene viewport resized to 1084x711, mode Windowed.
+[2023.02.03-09.19.16:556][260]LogViewport: Scene viewport resized to 601x346, mode Windowed.
+[2023.02.03-09.19.16:594][261]LogViewport: Scene viewport resized to 444x226, mode Windowed.
+[2023.02.03-09.19.16:787][277]LogViewport: Scene viewport resized to 1086x693, mode Windowed.
+[2023.02.03-09.19.17:012][293]LogViewport: Scene viewport resized to 1084x711, mode Windowed.
+[2023.02.03-09.19.17:084][295]LogViewport: Scene viewport resized to 444x226, mode Windowed.
+[2023.02.03-09.19.17:499][341]LogViewport: Scene viewport resized to 1086x693, mode Windowed.
+[2023.02.03-09.19.18:185][421]LogSlate: Window 'Pickup' being destroyed
+[2023.02.03-09.19.30:716][873]LogSlate: Took 0.000165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.02.03-09.19.36:619][568]LogStaticMesh: Display: Building static mesh Shape_Cube...
+[2023.02.03-09.19.36:635][568]LogStaticMesh: Built static mesh [0.02s] /Game/StarterContent/Shapes/Shape_Cube.Shape_Cube
+[2023.02.03-09.19.37:246][594]LogShaderCompilers: Display: ================================================
+[2023.02.03-09.19.37:246][594]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.02.03-09.19.37:246][594]LogShaderCompilers: Display: Total job queries 138, among them cache hits 12 (8.70%)
+[2023.02.03-09.19.37:246][594]LogShaderCompilers: Display: Tracking 123 distinct input hashes that result in 99 distinct outputs (80.49%)
+[2023.02.03-09.19.37:246][594]LogShaderCompilers: Display: RAM used: 1.03 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.13%
+[2023.02.03-09.19.37:246][594]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.02.03-09.19.37:246][594]LogShaderCompilers: Display: Shaders Compiled: 123
+[2023.02.03-09.19.37:246][594]LogShaderCompilers: Display: Jobs assigned 126, completed 123 (97.62%)
+[2023.02.03-09.19.37:246][594]LogShaderCompilers: Display: Average time worker was idle: 80.94 s
+[2023.02.03-09.19.37:246][594]LogShaderCompilers: Display: Time job spent in pending queue: average 2.61 s, longest 9.91 s
+[2023.02.03-09.19.37:246][594]LogShaderCompilers: Display: Job execution time: average 2.37 s, max 6.55 s
+[2023.02.03-09.19.37:246][594]LogShaderCompilers: Display: Job life time (pending + execution): average 5.04 s, max 10.53
+[2023.02.03-09.19.37:246][594]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 15.86 s
+[2023.02.03-09.19.37:246][594]LogShaderCompilers: Display: Jobs were issued in 88 batches (only local compilation was used), average 1.43 jobs/batch
+[2023.02.03-09.19.37:246][594]LogShaderCompilers: Display: Average processing rate: 7.75 jobs/sec
+[2023.02.03-09.19.37:246][594]LogShaderCompilers: Display: Total thread time: 83.59 s
+[2023.02.03-09.19.37:246][594]LogShaderCompilers: Display: Total thread preprocess time: 4.43 s
+[2023.02.03-09.19.37:246][594]LogShaderCompilers: Display: Percentage time preprocessing: 5.30%
+[2023.02.03-09.19.37:247][594]LogShaderCompilers: Display: Effective parallelization: 5.27 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.02.03-09.19.37:247][594]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.02.03-09.19.37:247][594]LogShaderCompilers: Display:                                   FCloudRenderViewPS111false (compiled    1 times, average 1.27 sec, max 1.27 sec, min 1.27 sec)
+[2023.02.03-09.19.37:247][594]LogShaderCompilers: Display:                                   FCloudRenderViewPS011false (compiled    1 times, average 1.23 sec, max 1.23 sec, min 1.23 sec)
+[2023.02.03-09.19.37:247][594]LogShaderCompilers: Display:                                   FCloudRenderViewPS010false (compiled    1 times, average 1.19 sec, max 1.19 sec, min 1.19 sec)
+[2023.02.03-09.19.37:247][594]LogShaderCompilers: Display:                                   FCloudRenderViewPS110false (compiled    1 times, average 1.18 sec, max 1.18 sec, min 1.18 sec)
+[2023.02.03-09.19.37:247][594]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS (compiled   17 times, average 1.12 sec, max 1.48 sec, min 0.77 sec)
+[2023.02.03-09.19.37:247][594]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.02.03-09.19.37:247][594]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 22.77% of total time (compiled   17 times, average 1.12 sec, max 1.48 sec, min 0.77 sec)
+[2023.02.03-09.19.37:247][594]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 14.70% of total time (compiled   16 times, average 0.77 sec, max 1.08 sec, min 0.48 sec)
+[2023.02.03-09.19.37:247][594]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 12.40% of total time (compiled   16 times, average 0.65 sec, max 0.79 sec, min 0.44 sec)
+[2023.02.03-09.19.37:247][594]LogShaderCompilers: Display:                                                 FLumenCardVS - 7.41% of total time (compiled   11 times, average 0.56 sec, max 0.76 sec, min 0.46 sec)
+[2023.02.03-09.19.37:247][594]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 5.95% of total time (compiled   12 times, average 0.41 sec, max 0.61 sec, min 0.29 sec)
+[2023.02.03-09.19.37:247][594]LogShaderCompilers: Display: ================================================
+[2023.02.03-09.19.50:374][930]LogContentBrowser: Deferred new asset file creation: M_Basic_Wall_Inst
+[2023.02.03-09.19.50:389][930]LogContentBrowser: Creating deferred item: M_Basic_Wall_Inst
+[2023.02.03-09.19.50:408][931]LogContentBrowser: Renaming the item being created (Deferred Item: M_Basic_Wall_Inst).
+[2023.02.03-09.19.59:993][ 42]LogContentBrowser: Attempting asset rename: M_Basic_Wall_Inst -> M_Basic_Wall_Blue
+[2023.02.03-09.19.59:994][ 42]LogContentBrowser: End creating deferred item M_Basic_Wall_Inst
+[2023.02.03-09.20.01:544][198]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/StarterContent/Materials/M_Basic_Wall_Blue.M_Basic_Wall_Blue
+[2023.02.03-09.20.01:568][198]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.03-09.20.01:603][198]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Engine/EditorMeshes/AssetViewer/Sphere_inversenormals) ...
+[2023.02.03-09.20.01:776][198]LogViewport: Scene viewport resized to 1335x902, mode Windowed.
+[2023.02.03-09.20.43:289][853]LogSlate: Window 'Save Asset As' being destroyed
+[2023.02.03-09.21.02:476][944]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2023.02.03-09.21.03:599][944]LogSlate: Window 'Delete Assets' being destroyed
+[2023.02.03-09.21.03:696][944]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2023.02.03-09.21.04:395][944]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2023.02.03-09.21.04:409][944]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2023.02.03-09.21.04:410][944]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.03-09.21.04:420][944]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/StarterContent/Materials/M_Basic_Wall_Blue.M_Basic_Wall_Blue
+	Asset Type: MaterialInstanceConstant
+[2023.02.03-09.21.04:771][944]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2023.02.03-09.21.04:802][944]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.02.03-09.21.04:835][944]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2023.02.03-09.43.27:930][680]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/StarterContent/Shapes/Shape_Cube.Shape_Cube
+[2023.02.03-09.43.27:961][680]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.03-09.43.28:226][680]LogViewport: Scene viewport resized to 1405x902, mode Windowed.
+[2023.02.03-09.44.02:553][481]LogStaticMesh: Display: Building static mesh Shape_Cube...
+[2023.02.03-09.44.02:555][481]LogStaticMesh: Built static mesh [0.00s] /Game/StarterContent/Shapes/Shape_Cube.Shape_Cube
+[2023.02.03-09.44.19:600][488]LogEditorTransaction: Undo StaticMesh: Material changed
+[2023.02.03-09.44.20:729][575]LogEditorTransaction: Undo Staticmesh editor: Add material slot
+[2023.02.03-09.44.21:637][664]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.03-09.44.21:711][664]LogSavePackage: Moving output files for package: /Game/StarterContent/Shapes/Shape_Cube
+[2023.02.03-09.44.21:711][664]LogSavePackage: Moving '../../../../../../Users/gerco/OneDrive/Documenten/Github/InternshipApplication/InternshipGame/Saved/Shape_Cube50F695904AD4D6A55ED5D2B18AC11937.tmp' to '../../../../../../Users/gerco/OneDrive/Documenten/Github/InternshipApplication/InternshipGame/Content/StarterContent/Shapes/Shape_Cube.uasset'
+[2023.02.03-09.44.21:719][664]LogFileHelpers: InternalPromptForCheckoutAndSave took 81 ms (total: 1.50 sec)
+[2023.02.03-09.44.21:726][664]AssetCheck: New page: Asset Save: Shape_Cube
+[2023.02.03-09.44.21:726][664]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/StarterContent/Shapes/Shape_Cube.Shape_Cube
+[2023.02.03-09.54.58:264][996]LogDerivedDataCache: C:/Users/gerco/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:43.173 and deleted 0 files with total size 0 MiB. Scanned 22217 files in 21449 folders with total size 2406 MiB.
+[2023.02.03-09.57.54:761][581]LogShaderCompilers: Display: ================================================
+[2023.02.03-09.57.54:761][581]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.02.03-09.57.54:761][581]LogShaderCompilers: Display: Total job queries 193, among them cache hits 19 (9.84%)
+[2023.02.03-09.57.54:761][581]LogShaderCompilers: Display: Tracking 171 distinct input hashes that result in 124 distinct outputs (72.51%)
+[2023.02.03-09.57.54:761][581]LogShaderCompilers: Display: RAM used: 1.33 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.16%
+[2023.02.03-09.57.54:761][581]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.02.03-09.57.54:761][581]LogShaderCompilers: Display: Shaders Compiled: 171
+[2023.02.03-09.57.54:761][581]LogShaderCompilers: Display: Jobs assigned 174, completed 171 (98.28%)
+[2023.02.03-09.57.54:761][581]LogShaderCompilers: Display: Average time worker was idle: 174.14 s
+[2023.02.03-09.57.54:761][581]LogShaderCompilers: Display: Time job spent in pending queue: average 1.90 s, longest 9.91 s
+[2023.02.03-09.57.54:761][581]LogShaderCompilers: Display: Job execution time: average 1.88 s, max 6.55 s
+[2023.02.03-09.57.54:761][581]LogShaderCompilers: Display: Job life time (pending + execution): average 3.82 s, max 10.53
+[2023.02.03-09.57.54:761][581]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 24.51 s
+[2023.02.03-09.57.54:761][581]LogShaderCompilers: Display: Jobs were issued in 136 batches (only local compilation was used), average 1.28 jobs/batch
+[2023.02.03-09.57.54:761][581]LogShaderCompilers: Display: Average processing rate: 6.98 jobs/sec
+[2023.02.03-09.57.54:761][581]LogShaderCompilers: Display: Total thread time: 107.07 s
+[2023.02.03-09.57.54:761][581]LogShaderCompilers: Display: Total thread preprocess time: 5.89 s
+[2023.02.03-09.57.54:761][581]LogShaderCompilers: Display: Percentage time preprocessing: 5.50%
+[2023.02.03-09.57.54:761][581]LogShaderCompilers: Display: Effective parallelization: 4.37 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.02.03-09.57.54:761][581]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.02.03-09.57.54:761][581]LogShaderCompilers: Display:                                   FCloudRenderViewPS111false (compiled    1 times, average 1.27 sec, max 1.27 sec, min 1.27 sec)
+[2023.02.03-09.57.54:761][581]LogShaderCompilers: Display:                                   FCloudRenderViewPS011false (compiled    1 times, average 1.23 sec, max 1.23 sec, min 1.23 sec)
+[2023.02.03-09.57.54:761][581]LogShaderCompilers: Display:                                   FCloudRenderViewPS010false (compiled    1 times, average 1.19 sec, max 1.19 sec, min 1.19 sec)
+[2023.02.03-09.57.54:761][581]LogShaderCompilers: Display:                                   FCloudRenderViewPS110false (compiled    1 times, average 1.18 sec, max 1.18 sec, min 1.18 sec)
+[2023.02.03-09.57.54:761][581]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS (compiled   17 times, average 1.12 sec, max 1.48 sec, min 0.77 sec)
+[2023.02.03-09.57.54:761][581]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.02.03-09.57.54:761][581]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 18.04% of total time (compiled   27 times, average 0.72 sec, max 1.08 sec, min 0.48 sec)
+[2023.02.03-09.57.54:761][581]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 17.77% of total time (compiled   17 times, average 1.12 sec, max 1.48 sec, min 0.77 sec)
+[2023.02.03-09.57.54:761][581]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 15.61% of total time (compiled   27 times, average 0.62 sec, max 0.79 sec, min 0.44 sec)
+[2023.02.03-09.57.54:761][581]LogShaderCompilers: Display:                                                 FLumenCardVS - 11.01% of total time (compiled   22 times, average 0.54 sec, max 0.76 sec, min 0.44 sec)
+[2023.02.03-09.57.54:761][581]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 8.28% of total time (compiled   23 times, average 0.39 sec, max 0.61 sec, min 0.29 sec)
+[2023.02.03-09.57.54:761][581]LogShaderCompilers: Display: ================================================
+[2023.02.03-09.57.57:339][850]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2023.02.03-09.57.57:339][850]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.03-09.57.57:877][850]LogSlate: Took 0.004542 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.02.03-09.59.40:186][825]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Luidsprekers (Realtek(R) Audio), InstanceID=1
+[2023.02.03-09.59.40:196][826]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=22932
+[2023.02.03-09.59.40:511][851]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{780e177e-3d9a-4c0b-8208-6653da9bd4ab}, Name=Luidsprekers (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=306.83
+[2023.02.03-09.59.40:511][851]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.02.03-09.59.40:512][851]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.02.03-10.01.29:697][644]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Hoofdtelefoon (AirPods Hands-Free AG Audio), InstanceID=1
+[2023.02.03-10.01.29:941][644]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=22932
+[2023.02.03-10.01.31:325][649]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Luidsprekers (Realtek(R) Audio), InstanceID=1
+[2023.02.03-10.01.32:032][651]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Hoofdtelefoon (AirPods Stereo), InstanceID=1
+[2023.02.03-10.01.32:942][653]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=16000, DeviceID={0.0.0.00000000}.{4f6e6466-5612-4dc6-a2fa-cb83a7d66ce0}, Name=Hoofdtelefoon (AirPods Hands-Free AG Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=2676.48
+[2023.02.03-10.01.32:942][653]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.02.03-10.01.32:944][653]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.02.03-10.01.33:274][654]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=22932
+[2023.02.03-10.01.33:609][655]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=44100, DeviceID={0.0.0.00000000}.{76090353-4fbe-42e2-87bf-7a6a38d4794a}, Name=Hoofdtelefoon (AirPods Stereo)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=15.32
+[2023.02.03-10.01.33:609][655]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.02.03-10.01.33:610][655]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.02.03-10.01.56:772][691]LogViewport: Scene viewport resized to 1086x693, mode Windowed.
+[2023.02.03-10.02.13:363][544]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Pickup.Pickup_C
+[2023.02.03-10.02.13:363][544]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Pickup.Pickup_C
+[2023.02.03-10.02.13:366][544]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Pickup.Pickup as actor: Pickup_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.Pickup_C_0
+[2023.02.03-10.02.13:367][544]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Pickup.Pickup as actor: Pickup_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.Pickup_C_0
+[2023.02.03-10.02.13:371][544]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2023.02.03-10.02.14:488][650]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Pickup.Pickup_C
+[2023.02.03-10.02.14:488][650]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Pickup.Pickup_C
+[2023.02.03-10.02.14:493][650]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Pickup.Pickup as actor: Pickup_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.Pickup_C_UAID_D8BBC121859C036301_1530040231
+[2023.02.03-10.02.14:493][650]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Pickup.Pickup as actor: Pickup_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.Pickup_C_UAID_D8BBC121859C036301_1530040231
